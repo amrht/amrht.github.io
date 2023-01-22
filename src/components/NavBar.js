@@ -52,7 +52,7 @@ export const NavBar = () => {
                 <a onClick={(e) => {e.preventDefault();window.location.href='https://www.instagram.com/a.hyatt_/';}}><img src={navIcon3} alt="" /></a>
               </div>
               <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
+                <button className="vvd" onClick={(e) => {e.preventDefault();window.location.href='https://www.linkedin.com/in/arham-hayat-0a8819248/';}}><span>Let’s Connect</span></button>
               </HashLink>
             </span>
           </Navbar.Collapse>
